@@ -1,0 +1,331 @@
+* {
+    text-decoration: none;
+  }
+
+  .navbar {
+    background-color: rgb(2, 2, 34);
+    background-image: url(image/carbl2.jpeg);
+    font-family: sans-serif;
+    width: 100%;
+  }
+  .digi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  li {
+    list-style: none;
+    display: inline-flex;
+  }
+  li a {
+    color: rgb(89, 13, 211);
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 30px;
+    position: relative;
+    right: 40px;
+    top: 40px;
+  }
+  .download-btn {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    margin-right: 15px;
+    margin-top: 80px;
+  }
+  .container {
+    background-color: black;
+
+    width: 100%;
+    height: 1500px;
+    top: 129px;
+    left: 5px;
+    right: 40px;
+    bottom: 0px;
+  }
+  .summary {
+    background-image: url(image/black.jpeg);
+    color: rgb(144, 143, 221);
+    width: 100%;
+    height: 500px;
+    float: left;
+  }
+  .myname {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(31, 11, 104);
+    position: relative;
+    bottom: 1000px;
+    left:430px ;
+  }
+  .picture {
+    position: relative;
+    bottom: 110px;
+    left: 80px;
+      border-radius: 50%;
+  }
+  .myimage3{
+    border-radius: 50%;
+  }
+ 
+  .personal {
+    font-size: 20px;
+    color: rgb(138, 202, 34);
+    position: relative;
+    left: 720px;
+    bottom: 500px;
+  }
+  .information {
+    font-size: 30px;
+    color: blue;
+    position:relative;
+    bottom: 500px;
+    left: 520px;
+  }
+  .number {
+    font-size: 30px;
+    color: blue;
+    position: relative;
+    bottom: 460px;
+    left:500px;
+  }
+  .academy {
+    width: 665px;
+    height: 400px;
+    color: rgb(144, 143, 221);
+    background-color: rgb(0, 0, 0);
+    background-image: url(image/gold\ black.jpg);
+    float: left;
+  }
+  .achievement {
+    width: 665px;
+    height: 400px;
+    color: rgb(144, 143, 221);
+    background-color: rgb(0, 0, 0);
+    float: right;
+    background-image: url(image/gold\ black.jpg);
+  }
+  .skill {
+    background-image: url(image/gold\ black.jpg);
+    width: 100%;
+    height: 550px;
+
+    float: left;
+    color: rgb(144, 143, 221);
+  }
+  .social {
+    width: 100%;
+    height: 200px;
+
+    color: rgb(144, 143, 221);
+    float: right;
+    background-image: url(image/black.jpeg);
+  }
+  h3 {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+    bottom: 30px;
+  }
+  ol {
+    font-size: 30px;
+    color: black;
+  }
+  .achie {
+    font-size: 35px;
+  }
+  .vaal {
+    font-size: 30px;
+  }
+  .yvaal {
+    font-size: 25px;
+    position: relative;
+    left: 140px;
+  }
+  .kwashuku {
+    font-size: 25px;
+  }
+  .ykwashuku {
+    font-size: 25px;
+    position: relative;
+    left: 60px;
+  }
+  .cisco {
+    font-size: 25px;
+  }
+  .ycisco {
+    font-size: 25px;
+    position: relative;
+    left: 50px;
+  }
+  .face {
+    position: relative;
+    bottom: 45px;
+    color: rgb(214, 199, 199);
+  }
+  .tik {
+    position: relative;
+    bottom: 75px;
+    color: rgb(90, 14, 212);
+  }
+  .link {
+    position: relative;
+    bottom: 240px;
+    color: rgb(204, 191, 191);
+  }
+  .git {
+    position: relative;
+    bottom: 270px;
+    color: rgb(60, 19, 211);
+  }
+  .java {
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+  }
+  .html {
+    position: relative;
+    left: 280px;
+    bottom: 220px;
+  }
+  .css {
+    position: relative;
+    left: 540px;
+    bottom: 370px;
+  }
+  .javascript {
+    position: relative;
+    left: 800px;
+    bottom: 540px;
+  }
+  .python {
+    position: relative;
+    left: 1060px;
+    bottom: 710px;
+  }
+  .all {
+    display: flex;
+    position: relative;
+    bottom: 710px;
+    left: 20px;
+  }
+  .jcircle {
+    display: grid;
+    grid-template-columns: repeat(1,160px);
+    grid-gap: 80px;
+    margin-top: 100px;
+    margin-left: 90px;
+    width:150px ;
+    height:150px ;
+    background-color: rgb(251, 250, 255);
+    border-radius: 50%;
+
+
+  }
+  .jcircle .circle .mask,
+  .jcircle .circle .fill-1,
+  .jcircle .circle .fill-2,
+  .jcircle .circle .fill-3,
+  .jcircle .circle .fill-4,
+  .jcircle .circle .fill-5{
+    width:150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    
+
+  }
+  .jcircle .circle .mask{
+    clip:rect(0px ,150px, 150px,75px);
+  }
+  /* Color for  java progress*/
+  .mask .fill-1{
+    clip:rect(0px, 75px, 150px,0px);
+    background-color: rgb(50, 9, 117);
+  }
+  .mask .full-1,
+  .jcircle .fill-1{
+    animation: fill-1 ease-in-out 3s;
+    transform:rotate(160deg);
+  }
+  @keyframes fill-1{
+    0%{transform:rotate(0deg) ;}
+    100%{transform:rotate(160deg);}
+  }
+  /* color for html*/
+  .mask .fill-2{
+    clip:rect(0px, 75px, 150px,0px);
+    background-color: orange;
+  }
+  .mask .full-2,
+  .jcircle .fill-2{
+    animation: fill-2 ease-in-out 3s;
+    transform:rotate(180deg);
+  }
+  @keyframes fill-2{
+    0%{transform:rotate(0deg) ;}
+    100%{transform:rotate(180deg);}
+  }
+  /* color for css*/
+  .mask .fill-3{
+    clip:rect(0px, 75px, 150px,0px);
+    background-color: rgb(45, 64, 241);
+  }
+  .mask .full-3,
+  .jcircle .fill-3{
+    animation: fill-3 ease-in-out 3s;
+    transform:rotate(180deg);
+  }
+  @keyframes fill-3{
+    0%{transform:rotate(0deg) ;}
+    100%{transform:rotate(180deg);}
+  }
+  /*color for javascript*/
+  .mask .fill-4{
+    clip:rect(0px, 75px, 150px,0px);
+    background-color: rgb(230, 243, 53);
+  }
+  .mask .full-4,
+  .jcircle .fill-4{
+    animation: fill-4 ease-in-out 3s;
+    transform:rotate(50deg);
+  }
+  @keyframes fill-4{
+    0%{transform:rotate(0deg) ;}
+    100%{transform:rotate(50deg);}
+  }
+  /*color for python*/
+  .mask .fill-5{
+    clip:rect(0px, 75px, 150px,0px);
+    background-color: rgb(15, 15, 14);
+  }
+  .mask .full-5,
+  .jcircle .fill-5{
+    animation: fill-5 ease-in-out 3s;
+    transform:rotate(90deg);
+  }
+  @keyframes fill-5{
+    0%{transform:rotate(0deg) ;}
+    100%{transform:rotate(90deg);}
+  }
+  .percent-circle {
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+    background-color: black;
+    line-height: 120px;
+    position: relative;
+    left: 13px;
+    top: 13px;
+    
+    z-index: 100;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(228, 24, 51);
+    text-align: center;
+
+  }
+  
